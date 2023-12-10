@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', 'Verdana', 'Helvetica Neue', sans-serif;
+  font-family: 'Segoe UI', Verdana, 'Helvetica Neue', sans-serif;
   line-height: 1.5;
 
   --primary-text-color: #181820;
@@ -239,6 +239,7 @@ body {
   margin-bottom: 10px;
   font-size: 15px;
 }
+
 .experiences__company-project-summary {
   list-style-type: '▶️';
   cursor: pointer;
