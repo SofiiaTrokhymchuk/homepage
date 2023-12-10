@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .fv {
@@ -52,7 +53,8 @@ body {
 
 @media screen and (max-width: 576px) {
   .main-info,
-  .contact_info_container {
+  .contact_info_container,
+  .skills__container {
     flex-direction: column;
   }
 
@@ -166,6 +168,7 @@ body {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .skills__text {
@@ -184,6 +187,7 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .experiences__company-header-durability {
@@ -219,6 +223,11 @@ body {
   margin-bottom: 10px;
 }
 
+.experiences__company-project-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
@@ -226,16 +235,18 @@ body {
 
 .additional-info {
   flex: 1 1 40%;
+  justify-content: flex-start;
 }
 
 .additional-info__education {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .additional-info__education-university-durability {
@@ -256,15 +267,33 @@ body {
 }
 
 .additional-info__languages {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+  margin-bottom: 5px;
+}
+
+.additional-info__facts {
+  margin-bottom: 30px;
+}
+
+.additional-info__facts-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.additional-info__facts-text {
+  color: var(--secondary-text-color);
+  text-align: justify;
 }
