@@ -235,16 +235,17 @@ body {
 
 .additional-info {
   flex: 1 1 40%;
+  justify-content: flex-start;
 }
 
 .additional-info__education {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -266,15 +267,33 @@ body {
 }
 
 .additional-info__languages {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+  margin-bottom: 5px;
+}
+
+.additional-info__facts {
+  margin-bottom: 30px;
+}
+
+.additional-info__facts-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.additional-info__facts-text {
+  color: var(--secondary-text-color);
+  text-align: justify;
 }
