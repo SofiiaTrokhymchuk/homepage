@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .fv {
@@ -52,7 +53,8 @@ body {
 
 @media screen and (max-width: 576px) {
   .main-info,
-  .contact_info_container {
+  .contact_info_container,
+  .skills__container {
     flex-direction: column;
   }
 
@@ -166,6 +168,7 @@ body {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .skills__text {
