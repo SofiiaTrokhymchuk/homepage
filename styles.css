@@ -187,6 +187,7 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .experiences__company-header-durability {
@@ -222,6 +223,11 @@ body {
   margin-bottom: 10px;
 }
 
+.experiences__company-project-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
@@ -239,6 +245,7 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .additional-info__education-university-durability {
