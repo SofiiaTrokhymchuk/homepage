@@ -239,11 +239,24 @@ body {
   margin-bottom: 10px;
   font-size: 15px;
 }
+.experiences__company-project-summary {
+  list-style-type: '▶️';
+  cursor: pointer;
+}
+
+.experiences__company-project-details[open]
+  > .experiences__company-project-summary {
+  list-style-type: '🔽';
+}
 
 .experiences__company-project-name {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
+}
+
+.experiences__company-project-name--inline {
+  display: inline;
 }
 
 .experiences__company-project-link {
