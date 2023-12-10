@@ -19,7 +19,12 @@ body {
   --accent-color: #2d9596;
   --neutral-light: #f5f5f5;
 
-  background-color: var(--accent-color);
+  background: var(--accent-color);
+  background: linear-gradient(
+    180deg,
+    var(--accent-color) 0%,
+    var(--border-color) 100%
+  );
 }
 
 .container {
