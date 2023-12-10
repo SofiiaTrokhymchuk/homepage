@@ -54,7 +54,6 @@ body {
   box-shadow: 0 0 60px 15px var(--text-decoration-color);
   padding: 30px 0;
   max-width: 900px;
-  position: relative;
 }
 
 .resume__block {
@@ -63,7 +62,7 @@ body {
   margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .main-info,
   .contact_info_container,
   .skills__container {
@@ -80,6 +79,13 @@ body {
 
   .experiences {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .resume {
+    margin: 0;
+    min-width: 100vw;
   }
 }
 
@@ -106,10 +112,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-grow: 3;
+  flex-basis: 0;
+  font-size: 0.85rem;
 }
 
 .contact-info__block--center {
   justify-content: center;
+  align-items: center;
+  flex-grow: 2;
 }
 
 .contact-info__item {
@@ -198,7 +209,7 @@ body {
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -291,7 +302,6 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
-  margin-bottom: 5px;
 }
 
 .additional-info__facts {
@@ -301,11 +311,12 @@ body {
 .additional-info__facts-header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 
 .additional-info__facts-text {
   color: var(--secondary-text-color);
   text-align: justify;
+  font-size: 0.9rem;
 }
